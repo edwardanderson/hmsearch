@@ -12,7 +12,7 @@ wget https://github.com/edwardanderson/hmsearch/raw/master/hmsearch.py
 
 Install dependencies and download the [HmSearch GitHub](https://github.com/commonsmachinery/hmsearch) repository
 ```
-apt-get install libkyotocabinet-dev kyotocabinet-utils
+sudo apt-get install libkyotocabinet-dev kyotocabinet-utils
 git clone https://github.com/commonsmachinery/hmsearch
 cd hmsearch
 make
