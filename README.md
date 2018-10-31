@@ -1,6 +1,6 @@
 # HmSearch
 
-Simple Python interface to [HmSearch](http://hmsearch.io/) using subprocess
+Simple Python interface to [HmSearch](http://hmsearch.io/) using subprocess. Because sometimes a [BKTree](https://github.com/Jetsetter/pybktree) is too big for memory.
 
 
 ## Install
