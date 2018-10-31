@@ -1,6 +1,6 @@
 # HmSearch
 
-Simple interface to [HmSearch](http://hmsearch.io/) using subprocess
+Simple Python interface to [HmSearch](http://hmsearch.io/) using subprocess
 
 
 ## Install
