@@ -33,8 +33,8 @@ db = hmsearch.HmSearch(database='hashes.kch')
 
 # Add some hashes
 hashes = ['0049697068f4ccfcfeff3f00eb768520',
-		  '0048697068f4cc6cfeff3f006b768500',
-		  '0040697068f4cc6cfeff3f006bb68500']
+          '0048697068f4cc6cfeff3f006b768500',
+          '0040697068f4cc6cfeff3f006bb68500']
 
 db.insert(hashes)
 
