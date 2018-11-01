@@ -62,13 +62,14 @@ class HmSearch(object):
     def lookup(self, hash_str):
         results = []
         response = self._run_cmd('hm_lookup', self.database, hash_str)
-        lines = response.split('\n')
-        for i in lines:
-            if not i:
-                continue
+        if response:
+            lines = response.split('\n')
+            for i in lines:
+                if not i:
+                    continue
 
-            key, distance = i.split(' ')
-            results.append((key, distance))
+                key, distance = i.split(' ')
+                results.append((key, distance))
 
         return results
 
